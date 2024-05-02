@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         restartButton.gameObject.SetActive(true);
     }
 
-    public void Restart()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
